@@ -1,0 +1,25 @@
+.container-fluid {
+    padding: 0; margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.introduction-block {
+    margin-top: 30px;
+}
+
+.image-block {
+    background: url('../images/cat-in-bag.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.menu > ul > li > a {
+    color: #232323;
+}

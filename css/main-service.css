@@ -1,0 +1,54 @@
+.profile-picture {
+    border-radius: 100px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.profile-dropdown > li:first-child {
+    background-color: #eaeaea;
+}
+
+.profile-dropdown > li > a > span {
+    margin-right: 30px;
+}
+
+@media(min-width: 768px) {
+    .navbar-nav.general-menu > li {
+        margin-left: 15px;
+    }
+}
+
+.navbar-nav.general-menu > li {
+    background: none;
+    transition: 1.5s;
+}
+
+.navbar-nav.general-menu > li > a:link {
+    color: #4b4b4b;
+    transition: 0.6s;
+}
+
+.navbar-nav.general-menu > li > a:hover {
+    color: #f6f6f6;
+    transition: 0.2s;
+}
+
+.navbar-nav.general-menu > li:nth-child(1) {
+    border-bottom: 1px solid #34bc5f;
+}
+
+.navbar-nav.general-menu > li:nth-child(2) {
+    border-bottom: 1px solid #488be8;
+}
+
+.navbar-nav.general-menu > li:nth-child(1):hover {
+    background-color: #34bc5f;
+    border-bottom: 1px solid #34bc5f;
+    transition: 0.5s;
+}
+
+.navbar-nav.general-menu > li:nth-child(2):hover {
+    background-color: #488be8;
+    border-bottom: 1px solid #488be8;
+    transition: 0.5s;
+}
